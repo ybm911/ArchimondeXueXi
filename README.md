@@ -1,6 +1,6 @@
 ### ArchimondeXueXi 好好学习脚本
 
-[![GitHub Stars](https://img.shields.io/github/stars/ybm911/ArchimondeXueXi.svg?cacheSeconds=86400&logo=github)](https://github.com/ybm911/ArchimondeXueXi) 
+[![Author](https://img.shields.io/badge/Author-Elli0t-blue)](https://spacey.top)
 
 > ### Archimonde（阿克蒙德） 名字由来：魔兽世界燃烧军团的两大高层干部恶魔之一，号称污染者，拥有无与伦比的破坏能力。
 
@@ -52,6 +52,10 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N001400021002
 ```
 
 * 每个班级学号不同，要遍历打卡的话，请自行修改代码
+
+成果展示：
+
+![截屏2022-04-07 11.34.02](https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/%E6%88%AA%E5%B1%8F2022-04-07%2011.34.02.png)
 
 ## 大学习特性
 
