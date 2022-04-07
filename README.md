@@ -2,7 +2,7 @@
 
 [![Author](https://img.shields.io/badge/Author-Elli0t-blue)](https://spacey.top)
 
-> ### Archimonde（阿克蒙德） 名字由来：魔兽世界燃烧军团的两大高层干部恶魔之一，号称污染者，拥有无与伦比的破坏能力。
+> Archimonde（阿克蒙德） 名字由来：魔兽世界燃烧军团的两大高层干部恶魔之一，号称污染者，拥有无与伦比的破坏能力。
 
 ~~抓包，配置 Cookie~~ 使用命令一键运行。（可以不使用 Cookie 提交，后台不会验证）
 
