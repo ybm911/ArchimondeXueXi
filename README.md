@@ -44,10 +44,10 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N001400021002
 
 ```
 {
-	"course": "7",	// 不用改
-	"subOrg": null,	// 不用改
+	"course": "7",
+	"subOrg": null,
 	"nid": "N0014000210021029",	// 替换为 id
-	"cardNo": "21XXXX"	// 自己的学号
+	"cardNo": "21XXXX"	// 替换为自己的学号
 }
 ```
 
