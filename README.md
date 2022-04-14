@@ -1,12 +1,12 @@
-### ArchimondeXueXi 好好学习脚本
+# ArchimondeXueXi 好好学习脚本
 
 [![Author](https://img.shields.io/badge/Author-Elli0t-blue)](https://spacey.top)
 
 > Archimonde（阿克蒙德） 名字由来：魔兽世界燃烧军团的两大高层干部恶魔之一，号称污染者，拥有无与伦比的破坏能力。
 
-~~抓包，配置 Cookie~~ 使用命令一键运行。（可以不使用 Cookie 提交，后台不会验证）
+**提供放在服务器端自动运行**
 
-不提供放在服务器端自动运行，容易出问题，这种东西还是自己手动运行的好。
+[TOC]
 
 ## 快速开始（以江西共青团为例）
 
@@ -18,7 +18,7 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N0014
 
 在返回的结果中选择自己的单位的 `id`，例如这里选择上饶师范学院团委：
 
-![image-20220407105652709](https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/image-20220407105652709.png)
+<img src="https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/image-20220407105652709.png" alt="image-20220407105652709" style="zoom:50%;" />
 
 将其替换在 `url` 的 `pid` 参数中：
 
@@ -26,7 +26,7 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N00140002
 
 选址自己的分属团委：
 
-![image-20220407105840400](https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/image-20220407105840400.png)
+<img src="https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/image-20220407105840400.png" alt="image-20220407105840400" style="zoom:50%;" />
 
 同上，替换在 `url` 的 `pid` 参数中：
 
@@ -34,7 +34,7 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N001400021002
 
 选择自己的班级：
 
-![image-20220407105934050](https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/image-20220407105934050.png)
+<img src="https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/image-20220407105934050.png" alt="image-20220407105934050" style="zoom:50%;" />
 
 保存自己的 `id` 进入下一步
 
@@ -42,7 +42,7 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N001400021002
 
 在脚本中修改输入参数 `nid`（就是我们上一步获取到的 `id`），并且修改 `cardNo`
 
-```
+```json
 {
 	"course": "7",
 	"subOrg": null,
@@ -55,15 +55,15 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N001400021002
 
 成果展示：
 
-![截屏2022-04-07 11.34.02](https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/%E6%88%AA%E5%B1%8F2022-04-07%2011.34.02.png)
+<img src="https://cdn.jsdelivr.net/gh/ybm911/blog_picture/img/%E6%88%AA%E5%B1%8F2022-04-07%2011.34.02.png" alt="截屏2022-04-07 11.34.02" style="zoom:67%;" />
 
-## 大学习特性
+### Step2：部署服务器自动运行
 
-- ~~Cookie 都不验证，这网站不是垃圾是什么~~
+可以通过脚本设置定时任务（默认每周三上午9点5分自动运行）
 
-## 下一步
-
-部署服务器自动运行（应该不会搞）
+```bash
+sudo sh task.sh
+```
 
 ## 重要提示
 
