@@ -1,12 +1,12 @@
 """
 作者：Elli0t
-2022.04.07
+更新于2022.05.06
 如要运行需要修改三处代码
 """ 
 import requests
 import time
 import random
-import re
+import json
 
 
 courseUrl = "http://osscache.vol.jxmfkj.com/html/assets/js/course_data.js"
@@ -25,8 +25,8 @@ headers = {
   'Referer': 'http://osscache.vol.jxmfkj.com/html/h5_index.html'
 }
 responseCourse = requests.request("GET", courseUrl, headers=headers)
-pattern = re.search(r'[0-9]', responseCourse.text)
-courseNumber = pattern.group(0)
+courseNumber = json.loads("{" + responseCourse.text.split("{")[2].split("}")[0] + "}")['id']
+# print(courseNumber)
 
 
 
