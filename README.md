@@ -12,7 +12,7 @@
 
 江西共青团大学习 pid 网址为：
 
-http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N0014
+http://www.jxqingtuan.cn/pub/vol/config/organization?pid=N0014
 
 在返回的结果中选择自己的单位的 `id`，例如这里选择上饶师范学院团委：
 
@@ -20,7 +20,7 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N0014
 
 将其替换在 `url` 的 `pid` 参数中：
 
-http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N00140002
+http://www.jxqingtuan.cn/pub/vol/config/organization?pid=N00140002
 
 选址自己的分属团委：
 
@@ -28,7 +28,7 @@ http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N00140002
 
 同上，替换在 `url` 的 `pid` 参数中：
 
-http://osscache.vol.jxmfkj.com/pub/vol/config/organization?pid=N001400021002
+http://www.jxqingtuan.cn/pub/vol/config/organization?pid=N001400021002
 
 选择自己的班级：
 

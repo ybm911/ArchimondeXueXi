@@ -9,11 +9,11 @@ import random
 import json
 
 
-courseUrl = "http://osscache.vol.jxmfkj.com/html/assets/js/course_data.js"
-url = "http://osscache.vol.jxmfkj.com/pub/vol/volClass/join?accessToken="
+courseUrl = "http://www.jxqingtuan.cn/pub/vol/volClass/current"
+url = "http://www.jxqingtuan.cn/pub/vol/volClass/join?accessToken="
 courseNumber = 0
 headers = {
-  'Host': 'osscache.vol.jxmfkj.com',
+  'Host': 'www.jxqingtuan.cn',
   'Accept': 'application/json, text/javascript, */*; q=0.01',
   'X-Requested-With': 'XMLHttpRequest',
   'Accept-Language': 'zh-cn',
@@ -22,7 +22,7 @@ headers = {
   'Origin': 'http://osscache.vol.jxmfkj.com',
   'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_8_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.18(0x1800123c) NetType/WIFI Language/zh_CN',
   'Connection': 'keep-alive',
-  'Referer': 'http://osscache.vol.jxmfkj.com/html/h5_index.html'
+  'Referer': 'http://www.jxqingtuan.cn/html/h5_index.html'
 }
 responseCourse = requests.request("GET", courseUrl, headers=headers)
 courseNumber = json.loads("{" + responseCourse.text.split("{")[2].split("}")[0] + "}")['id']
